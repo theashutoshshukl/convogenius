@@ -1,0 +1,33 @@
+.contact{
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.contact h1{
+    padding: 10px;
+    font-family: 'Knit', sans-serif;
+}
+
+.contact h1 span{
+    font-family: 'Amaranth', sans-serif;
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact p{
+    text-align: center;
+    padding: 5px;
+}
+
+.contact h3{
+    color: yellowgreen;
+}
+
+.contact p strong{
+    color: yellow;
+}

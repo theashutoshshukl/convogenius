@@ -1,0 +1,65 @@
+.chat {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.chat h1 {
+    font-family: 'Acme', sans-serif;
+    color: yellow;
+    margin-top: 200px;
+}
+
+.chat h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+}
+
+.input-container input {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: gray;
+}
+
+.send-message {
+    padding: 5px;
+    font-size: 14px;
+    margin: 0px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+@media screen and (max-width: 620px) {
+    .input-container {
+        width: auto;
+    }
+}

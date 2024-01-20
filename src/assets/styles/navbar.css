@@ -1,0 +1,110 @@
+.nav-home {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.ham-close {
+    display: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+/* Navbar */
+.navbar ul {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    color: rgb(225, 225, 225);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.socials {
+    width: 150px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+/* Mobile Navbar */
+.mobile-navbar{
+    text-align: center;
+    display: none;
+    background-color: rgba(159, 159, 159, 0.269);
+}
+
+.mobile-navbar ul li{
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* Mobile Socials */
+.mobile-socials {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-socials i{
+    padding: 20px;
+    color: rgb(217, 9, 236);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 900px) {
+    .socials {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* Home and Navbar */
+    .nav-home {
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .d-block {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-home {
+        margin-bottom: 20px;
+    }
+}

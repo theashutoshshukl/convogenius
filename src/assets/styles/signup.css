@@ -1,0 +1,108 @@
+.signup {
+    color: white;
+    margin: 70px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Signup Form */
+.signup-form {
+    padding: 20px;
+    display: flex;
+    border: 2px solid rgb(99, 99, 99);
+    border-radius: 5px;
+    flex-direction: column;
+    width: 500px;
+}
+
+.signup-form-heading{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+    color: white;
+}
+
+.signup-form label {
+    padding: 5px 0px;
+    font-size: 14px;
+    color: rgb(218, 216, 216);
+    font-family: 'Amaranth', sans-serif;
+}
+
+.signup-form input {
+    background-color: #716f6f;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.signup-form ::placeholder {
+    color: white;
+    font-family: 'Knit', sans-serif;
+}
+
+.submitBtn {
+    border-radius: 15px;
+    border: 2px solid rgb(248, 68, 248);
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #9C3FE4 0.16%, #C65647 101.62%);
+}
+
+.submitBtn:hover {
+    color: yellow;
+}
+
+.email_otp {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.email_otp input {
+    width: 120px;
+}
+
+.sendOtpBtn {
+    border-radius: 15px;
+    border: 2px solid rgb(248, 68, 248);
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #9C3FE4 0.16%, #C65647 101.62%);
+}
+
+.sendOtpBtn:hover {
+    color: yellow;
+}
+
+.other {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.other p {
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+.other a {
+    text-decoration: underline;
+    color: rgb(212, 255, 0);
+}
