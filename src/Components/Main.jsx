@@ -7,7 +7,7 @@ const Main = () => {
         <div className='main'>
             <h1>A Fast ChatGPT</h1>
             <h2>ConvoGenius</h2>
-            <p>Our technology performing fast response and it has guaranteed AI-based data research. Proof of Stake, its consensus algorithm enables unlimited speeds.</p>
+            <p>Our technology performing fast response and it has guaranteed AI-based data research.</p>
             <div className="btnContainer">
                 <Link to="/signup">
                     <button className='signupBtn'>Get Started</button>

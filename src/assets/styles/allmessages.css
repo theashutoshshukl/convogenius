@@ -23,7 +23,7 @@
 
 .chat-top-heading h2 {
     text-align: center;
-    margin: 20px 0px;
+    margin: 30px 0px;
     color: yellow;
 }
 
@@ -61,3 +61,11 @@
         width: auto;
     }
 }
+
+/* @media screen and (max-height: 570px) {
+    .chats{
+        height: 400px;
+        overflow: auto;
+        background-color: red;
+    }
+} */

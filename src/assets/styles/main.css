@@ -42,7 +42,7 @@
 }
 
 .btnContainer {
-    margin: 20px;
+    margin: 10px;
     font-family: 'Amaranth', sans-serif;
     z-index: 1;
 }
@@ -86,14 +86,14 @@
     z-index: -1;
     overflow: hidden;
     width: 100%;
-    height: 415px;
+    height: 400px;
 }
 
 
 @media screen and (max-width: 600px) {
     .main h1 {
         font-size: 40px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .main p {
